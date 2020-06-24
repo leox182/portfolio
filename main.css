@@ -22,7 +22,7 @@
 
 header { background-color: #000000; font-family: "pattaya", sans-serif; }
 
-header .cover-page { max-height: 560px; max-width: 1140px; background-image: url(../img/background.jpg); background-position: 50% 50%; background-size: cover; background-attachment: scroll; background-repeat: no-repeat; }
+header .cover-page { max-height: 560px; max-width: 1140px; background-image: url(background.jpg); background-position: 50% 50%; background-size: cover; background-attachment: scroll; background-repeat: no-repeat; }
 
 header .cover-page .cover-title { padding: 8% 0; }
 
