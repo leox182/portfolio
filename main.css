@@ -1,0 +1,109 @@
+.bgRed { background-color: #fa2b00; }
+
+.bgDark { background-color: #1a1a1a; }
+
+.textRed { color: #fa2b00; }
+
+.textDark { color: #1a1a1a; }
+
+.textGrey { color: #6d6b6b; }
+
+.navbar { background-color: rgba(0, 0, 0, 0.9); padding: 0; }
+
+.navbar .navbar-brant { color: #ffffff; font-family: "Caveat", cursive; font-size: 2.5em; text-decoration: none; }
+
+.navbar .navbar-brant:hover { color: rgba(255, 255, 255, 0.8); }
+
+.navbar .navbar-nav { font-family: "pattaya", sans-serif; font-size: 1.5em; }
+
+.navbar .navbar-nav a { color: #ffffff; }
+
+.navbar .navbar-nav a.active, .navbar .navbar-nav a:hover { border-bottom: solid 5px #fa2b00; }
+
+header { background-color: #000000; font-family: "pattaya", sans-serif; }
+
+header .cover-page { max-height: 560px; max-width: 1140px; background-image: url(../img/background.jpg); background-position: 50% 50%; background-size: cover; background-attachment: scroll; background-repeat: no-repeat; }
+
+header .cover-page .cover-title { padding: 8% 0; }
+
+header .cover-page .cover-title h1 { color: #ffffff; font-size: 5em; }
+
+header .cover-page .cover-title h4 { color: #fa2b00; }
+
+header .cover-page .cover-title h4 a { color: #fa2b00; text-decoration: none; }
+
+section { padding: 6em 0 3em; }
+
+section .section-title { margin-bottom: 5em; }
+
+section .section-content { margin-bottom: 3em; font-family: "Times New Roman", Times, serif; }
+
+section .section-link { margin-bottom: 1em; }
+
+.introduction h2 { font-size: 1em; color: #fa2b00; }
+
+.introduction p { font-size: 2em; }
+
+.introduction a { font-size: 1em; text-decoration: none; }
+
+.introduction a:hover { border-bottom: solid 5px #fa2b00; }
+
+.work-list h2 { font-size: 1em; }
+
+.work-list ul { font-size: 2.5em; padding: 0; list-style: none; }
+
+.work-list ul a { color: #ffffff; display: block; padding: 0 0.5em; }
+
+.work-list ul a:hover { background-color: #1a1a1a; }
+
+.work-list a { font-size: 1em; text-decoration: none; }
+
+.work-list .section-link a:hover { border-bottom: solid 5px #1a1a1a; }
+
+.skills-main h2 { color: #fa2b00; font-size: 1em; }
+
+.skills-main h3 { color: #ffffff; font-size: 2em; font-family: "pattaya", sans-serif; }
+
+.skills-main table { font-family: "Times New Roman", Times, serif; }
+
+.skills-main table .progress { background-color: #6d6b6b; }
+
+.skills-main table .progress-bar { background-color: #fa2b00; }
+
+.about h2 { margin-bottom: 1em; font-size: 1em; color: #fa2b00; }
+
+.about h1 { font-size: 3em; font-family: "pattaya", sans-serif; margin-bottom: 1em; }
+
+.about h3 { font-size: 0.8em; }
+
+.about p { font-size: 1.5em; margin-bottom: 1em; }
+
+.about .section-link a { text-decoration: none; color: #1a1a1a; }
+
+.about .section-link a:hover { border-bottom: solid 5px #fa2b00; }
+
+.contact p { font-size: 2em; }
+
+.contact h1 { font-family: "pattaya", sans-serif; margin-bottom: 3em; }
+
+.contact h1 a:hover { text-decoration: none; border-bottom: solid 5px #fa2b00; color: #ffffff; }
+
+.contact h2 { color: #fa2b00; font-size: 1em; }
+
+footer { font-family: "pattaya", sans-serif; padding: 2em 1em; border-top: solid 1px #6d6b6b; }
+
+footer a { color: #6d6b6b; }
+
+footer a:hover { color: #fa2b00; }
+
+.social-menu { font-size: 2em; }
+
+.social-menu a { color: #6d6b6b; }
+
+.social-menu a:hover { color: #fa2b00; }
+
+@media screen and (max-width: 767px) { nav ul.navbar-nav a.active { border-bottom: none; }
+  nav ul.navbar-nav a:hover { color: rgba(189, 242, 255, 0.8); border-bottom: none; } }
+
+@media screen and (max-width: 360px) { header div.cover-title h1 { font-size: 4em; } }
+/*# sourceMappingURL=main.css.map */
